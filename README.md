@@ -27,4 +27,3 @@ java.lang.NoSuchMethodException: org.apache.hadoop.hive.ql.metadata.Hive.loadTab
 	at org.apache.spark.sql.DataFrameWriter.insertInto(DataFrameWriter.scala:189)
 	at org.apache.spark.sql.DataFrameWriter.saveAsTable(DataFrameWriter.scala:239)
 	at org.apache.spark.sql.DataFrameWriter.saveAsTable(DataFrameWriter.scala:221)
-	at com.scb.cnc.trades.WFMDataLoad$.main(WFMDataLoad.scala:204)
